@@ -60,8 +60,8 @@ function Eventos() {
           <TableBody>{listEventos}</TableBody>
         </Table>
       </TableContainer>
-      <Button fullWidth variant="contained" component={Link} to="/">
-        SAIR
+      <Button fullWidth variant="contained" component={Link} to="/CriarEvento">
+        criar eventos
       </Button>
     </div>
   );
